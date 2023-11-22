@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+section {
+  background-image: url("/public/Images/bg-img.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.floating { 
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}

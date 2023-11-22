@@ -21,7 +21,7 @@ To get started with Emoji Explorer, follow these simple steps:
    ```
 2. Navigate to the project directory.
    ```bash
-   cd emoji-explorer
+   cd Emoji_Explorer
    ```
 3. Install dependencies.
    ```bash
